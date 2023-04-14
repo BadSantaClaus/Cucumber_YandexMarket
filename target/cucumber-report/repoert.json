@@ -1,0 +1,62 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1189456500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.chromeSettings()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Проверяем текущую категорию",
+        "description": "",
+        "id": "проверка-категории-смартфоны-сайта-яндексмаркет;проверяем-текущую-категорию;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 122695200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 587176900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "перейти на сайт ЯндексМаркет",
+            "match": {
+              "location": "MyStepdefs.перейти_на_сайт_ЯндексМаркет()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      }
+    ],
+    "name": "Проверка категории смартфоны сайта ЯндексМаркет",
+    "description": "   Проверяем категорию и результаты поиска",
+    "id": "проверка-категории-смартфоны-сайта-яндексмаркет",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/tests/features/checkPhones.feature",
+    "tags": []
+  }
+]
